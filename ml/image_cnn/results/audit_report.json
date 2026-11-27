@@ -1,0 +1,2081 @@
+{
+  "dataset": "C:\\AL KAUTSAR\\DATA YAZID\\LOMBA\\datasetkata\\IsyaratKata",
+  "total_images": 4999,
+  "valid_images": 4999,
+  "class_counts": {
+    "Apa": 200,
+    "Ayo": 200,
+    "Di": 200,
+    "Hati": 200,
+    "Jalan": 200,
+    "Kamu": 200,
+    "Kapan": 200,
+    "Kasih": 200,
+    "Kita": 200,
+    "Makan": 200,
+    "Mana": 200,
+    "Mari": 200,
+    "Mau": 200,
+    "Nama": 200,
+    "Pagi": 200,
+    "Pulang": 200,
+    "Rumah": 100,
+    "Saya": 200,
+    "Sedang": 200,
+    "Selamat": 299,
+    "Siang": 200,
+    "Siapa": 200,
+    "Sore": 200,
+    "Terima": 200,
+    "Tolong": 200
+  },
+  "corrupt_count": 0,
+  "corrupt_files": [],
+  "duplicate_groups": [
+    {
+      "sha256": "308f743a54e92bade09ceaf1b6a447b70b0f440609870b956eefc2e661ab00f8",
+      "files": [
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9942(1).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9942(2).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9942(3).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9942(4).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9942(5).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9942.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "47a5895b0402f25cf5afe80205a6eeab53b42faa22458d3f03808ec174af51e4",
+      "files": [
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9943(1).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9943(2).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9943(3).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9943(4).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9943(5).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9943.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "b3fdc27656ab39ab059f6c84640a4c1d71c648768b83c09a16dcb994157d1194",
+      "files": [
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9944(1).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9944(2).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9944(3).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9944(4).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9944(5).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9944.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "5d6215ec432edf07c676908af73134904ccdd80c25d0bef2cd7f9fd1e564248a",
+      "files": [
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9945(1).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9945(2).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9945(3).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9945(4).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9945(5).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9945.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "884f33e4edb4a83c2e80e01d588558ffbbe3c1a84c89acbec012447549f1b853",
+      "files": [
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9947(1).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9947(2).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9947(3).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9947(4).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9947(5).JPG"
+        },
+        {
+          "class": "Kita",
+          "path": "Kita\\IMG_9947.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "15720aaaf15636ce6d6bb3ac4eb01f3391610e9252835167b964d671a68da6a4",
+      "files": [
+        {
+          "class": "Mana",
+          "path": "Mana\\IMG_5994(1).jpg"
+        },
+        {
+          "class": "Mana",
+          "path": "Mana\\IMG_5994.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "090461a4881e4d503323a4ef8fc217e9ac700c2b7e47b2b7289af9559f17ff00",
+      "files": [
+        {
+          "class": "Mana",
+          "path": "Mana\\IMG_6003(1).jpg"
+        },
+        {
+          "class": "Mana",
+          "path": "Mana\\IMG_6003.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "018dfbc2857a7e64938f6d785cb3ad3e49209f8459a3b80ddc2f00b89d98b4c8",
+      "files": [
+        {
+          "class": "Mana",
+          "path": "Mana\\IMG_6010(1).jpg"
+        },
+        {
+          "class": "Mana",
+          "path": "Mana\\IMG_6010.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "d332aef8f8afec2372a832cfdc2afb2fa055486333a19d2a2a76019272f763cc",
+      "files": [
+        {
+          "class": "Mana",
+          "path": "Mana\\IMG_6019(1).jpg"
+        },
+        {
+          "class": "Mana",
+          "path": "Mana\\IMG_6019.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "eee6ec991f358a1992a57d6cde6e5930493baa5e4db85f29afac493cda7a50e9",
+      "files": [
+        {
+          "class": "Mana",
+          "path": "Mana\\IMG_6024(1).jpg"
+        },
+        {
+          "class": "Mana",
+          "path": "Mana\\IMG_6024.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "c31015ecefeba847fed714e67d73bb87c1e31083e5338a06095801d1ee742259",
+      "files": [
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9001(1).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9001(2).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9001(4).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9001.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "8ee8f4396af628882f097752db38f84a47d24b20d0b5ea58412eb95572df9515",
+      "files": [
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9002(1).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9002(2).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9002.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "a69f7a91da759878c7ac4292f17389c32f1fba637ad184a6d59197c633598191",
+      "files": [
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9003(1).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9003(2).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9003.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "1f2ac4384c7065242f25e5ee9497aea8c1d1b5e947e866a2958cc32fc72ecb96",
+      "files": [
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9004(2).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9004(3).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9004.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "a79905094b69e59b9cf14b7cce9bde9179f45cf94e4dda7e1066ee9e2f7fc1d6",
+      "files": [
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9005(1).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9005(2).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9005.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "73eeac850f9c1dfe82794b26c78c8012907eb4332694c45cf2d82add38eea6c8",
+      "files": [
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9006(1).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9006(2).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9006.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "be2ad15fe4e2ee2442702911063f218c51629b62dbc57fac25e12f0d65a97efe",
+      "files": [
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9007(1).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9007(2).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9007(3).JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "9860025ef6ed76ebd9e6c9ad47522c01abaf7bc737ec29fe064880b3cf1fb794",
+      "files": [
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9008(2).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9008(3).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9008.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "dbdd550642f204b38c72b7e667b28eea8d11c4184e97ea3a25db985e46d8866d",
+      "files": [
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9009(2).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9009(3).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9009.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "96c87a6662beaa4ce20e7cdfd9aaeb63f8ea140bc4f08a1a0383efa697a91a22",
+      "files": [
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9010(2).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9010(3).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9010.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "da466c768acd747dfe7d2368f8849a02c4490e8c95a20929bb3b1372abaad3dc",
+      "files": [
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9011(1).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9011(3).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9011.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "2e82dfefd98b2072cbd997f9f7c7f68edc89084248023c1e46f4b63fa07b3ca5",
+      "files": [
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9012(1).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9012(2).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9012.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "d4f8ab46ee31c5679ad0ea8afd86abe070f6180411cf2106ef87ae5bf5f725e2",
+      "files": [
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9013(1).JPG"
+        },
+        {
+          "class": "Mari",
+          "path": "Mari\\IMG_9013.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "75e2f5a0dabd3b9706dc3584a6ba92e4e6b1029c33b94db4f4c9a242f6a3e6f6",
+      "files": [
+        {
+          "class": "Saya",
+          "path": "Saya\\IMG_5602(1).jpg"
+        },
+        {
+          "class": "Saya",
+          "path": "Saya\\IMG_5602.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "1f517cea2ebf114f66e7c0c7177527dd3802d5a3698ab3325c475a64aceeebc1",
+      "files": [
+        {
+          "class": "Saya",
+          "path": "Saya\\IMG_5603(1).jpg"
+        },
+        {
+          "class": "Saya",
+          "path": "Saya\\IMG_5603.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "9e6735902ac37079b6351169826e370c1f3b9da6bd82235c2930d22d6fa80b88",
+      "files": [
+        {
+          "class": "Saya",
+          "path": "Saya\\IMG_5604(1).jpg"
+        },
+        {
+          "class": "Saya",
+          "path": "Saya\\IMG_5604.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "811d7fa94d0100b473aeeda0ca77e71ac16d9b1d1ae14b47b877de225dc5b96d",
+      "files": [
+        {
+          "class": "Saya",
+          "path": "Saya\\IMG_5605(1).jpg"
+        },
+        {
+          "class": "Saya",
+          "path": "Saya\\IMG_5605.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "2a0f7f629828303a1c40aff5143b8583f99a0bcf85f73825dbaae812631f95a4",
+      "files": [
+        {
+          "class": "Saya",
+          "path": "Saya\\IMG_5606(1).jpg"
+        },
+        {
+          "class": "Saya",
+          "path": "Saya\\IMG_5606.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "ac485a4cb64ed5a036d16ed5e1841146a17daaf030b55b869f0e12f7cd199d20",
+      "files": [
+        {
+          "class": "Saya",
+          "path": "Saya\\IMG_5607(1).jpg"
+        },
+        {
+          "class": "Saya",
+          "path": "Saya\\IMG_5607.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "a5d27d19b790220d12fdd9b304993d203bed624bd012800d1aec7af03b3bb2a4",
+      "files": [
+        {
+          "class": "Saya",
+          "path": "Saya\\IMG_5608(1).jpg"
+        },
+        {
+          "class": "Saya",
+          "path": "Saya\\IMG_5608.JPG"
+        }
+      ]
+    },
+    {
+      "sha256": "b6e43045c0bcc831b867ce5b888c13c2b85cfe0a8a6523453ff2f0a45f8f7973",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4468(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4468.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "239ecae2c1b9896769f7920929c2095e8f3f742c1cec829df1add0269088c9cd",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4469(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4469.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "43791704990ff8faeb8e28569d375f8e83d704d3beb05acf0c8883dcb75af1a2",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4470(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4470.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "48121c152a6c5e9c121ba8311bbb5f9291c0f907896a445af0bcaa304ccdd671",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4471(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4471.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "50f078d8c71b0f8b830a2cbbc20f79792b837a696ef325e40f73ead4fa0b23ad",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4472(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4472.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "ea5a42a218f405ae3c6a786d8353b7d24d04d5dfd254460b7052b5e17bf6ed09",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4473(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4473.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "6551e4f760ad11f356dc86a5bf935c348b896e7a7eb4b05eb75534307be3fbf0",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4474(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4474.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "d37ee765049c4d79ae30ea51612280ea818f966697ee47c3f520d07cb6f1dc43",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4475(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4475.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "6c347a1cb9c1de7d0a42f33b3a3a1624b9975994b6fa56dd0aefc45247238cc3",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4476(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4476.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "ed568e743baf5bd806ffc8c2442097caa65695130d652a89b79d256525364b16",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4477(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4477.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "b2e112d37455bd31bcdc7af51cf23ad9ea63991ed3cda54a14ea97b81c833cfd",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4478(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4478.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "0fd09a2c2f436d2ab0d3cd307bf961816cd3c73bd9aed697fdac3c7feb85cd4b",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4479(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4479.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "c33d5778958bdd63c25bbfc1b1455a727763efe47a13ad06ba0d06bf8125a1de",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4480(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4480.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "b7d1f58949085e4e3032f3bf05c98ade34bf21758c0c0fa42cb45d50d25f24d8",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4481(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4481.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "1d17ba710d41f9580ef8ef06d06d310164a2e1c3dacdd928d117d8fc9116378f",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4482(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4482.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "06989b63e6fba8711dab2bf223a3d3068b7b83b5be08b0b1803e3a6a74d0118a",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4483(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4483.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "61d5f8003c6867e5ae16785332401d8810048a4ad0661a5efbf3e533baec047b",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4484(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4484.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "bc8700fcf35f4eba0c95ec98c1a7cdd4453b07b868e54d61d18d74d9ff574b74",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4485(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4485.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "26166addaf7795112cc34fc04c7758d06de9205137b5d51b5fb93349a878eaf1",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4486(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4486.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "9bcebf6e2c874a5447777c5c01b10b3cf8d06e59b6b26169ea21a4c38eff7c6b",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4487(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4487.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "e1b54fc210ab339f05a33f981a7bde988f908070f3f1da87134891bf44b52bb7",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4488(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4488.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "a6ca5f015d35d79caacff31f0325a073a182eec3e6e13d768c9b70b865f4895c",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4489(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4489.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "b0f33867408edf039dcbcc5682479cf0d1fbd173f6613a629639f029467c89dc",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4490(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4490.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "3d913fb3a671bc7532be2d80ee8ac4f8a2fda10e737820e48b3991bf768d01c5",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4491(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4491.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "51ba7ad2816805e978cc1e299e9807f19ca4b448726e8f65ae2de8041358742f",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4492(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4492.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "13f6a8b3dba4381f8067fd479ef3262270d7eef750c8ba61570089e45731bd50",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4493(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4493.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "c78b76936aef2fd2ef30eecc04d97d2dcd98c43e37592f8e585fcf715458c3eb",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4494(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4494.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "a4676b56ef60b8e77ec4e26b02eb31406c20d0a6f133a5460a3751d259e82968",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4495(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4495.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "fb71b6957dbca44f68c9b7564264e51f8eaddb7ba64b5bd43a4abfe25444f416",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4496(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4496.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "baafed7ac3ee05ebbd74a0230b01133c56926a45a6f13cb939c9586847a39909",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4497(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4497.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "0fad2af900e17fdde7fc2043eafe0581b90703e8906da305dcad0a76cf706579",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4498(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4498.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "e0921b8cf2d746733184dc73d0cbfe74c2e6f9d3c02244c4340d330555e58f4e",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4499(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4499.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "97461a268ad8353bea991e7975c6d3219db5855f08c8338fe9dc36290d9fa0ea",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4500(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4500.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "083e650756489db1cdf879d3a04068e8808a7158bb51d8c24e36089f1e796a6a",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4501(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4501.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "7bd3e9d1708319a0d52ad1c4996a2c70147b0fab5581e31688de0a92673aad43",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4502(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4502.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "70420d829aece4130eea64ada9b852b29b6c57f6bc4e9a3ed9a9b6c939be5143",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4503(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4503.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "753756e21bb6c3f12720bb6eea3a02ded2f6d6f0e49894a62afc57e03b417df3",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4504(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4504.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "fc226ead2fcc0d9e82f1ab60c3dc3bb944b4969b3b99058cbb4d461694f0172b",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4505(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4505.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "7091c1dd1604219edcc2266ec7e038a82f5ba034533e37bdbd3800dbf582a08c",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4506(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4506.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "c539c3cc125e0ef6d907d72337d444d729dc514f3b0512ac5d5e1ffdc7ba68a1",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4507(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4507.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "689d9c3514348ea9de88b4de7aabb4c718575ad709ee49be0b1b6fd830829e3d",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4508(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4508.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "c78ec96236f317480e3894c154e0386a9403fb74469f7c9e944bf01bff267261",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4509(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4509.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "c3d841b57d4503f3522e2b4f4eb2beead8904fa095e77d2f4201f1085af9146b",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4510(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4510.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "95e23badc7b97634315e0f35022629fe4894b014c59064ef08a3f7c4de10ca00",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4511(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4511.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "8064c41aa510d6b6f32e77c4ff87aa5edcde8acc04beb8d11a2a6f31c600b683",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4512(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4512.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "3367432c92f671363987bd387d0b4a3e6f48128dd5f4ea252f9dd4fc3ab665cf",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4513(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4513.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "87f827d53a3f580b99c213922407b7ab4954a4359366f473ffb72fa41f9051a5",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4514(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4514.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "a8723281a58273ffdec9a897bcbeb81fc3eea9bcb343ee3e91a84d70aee1df19",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4515(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4515.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "e319cec314ebfabe8470201b173451eaa6174eefb78bb32d187e4b3aa4f0f4e8",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4516(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4516.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "8b5f6cb65d9366f3a467d1a912d2dc1ab4d20a1eb5b3910bf4195801bf594930",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4517(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4517.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "9425643bfb25576552d029c8189207d3cbe69c35bb760db700f59edba7e55037",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4518(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4518.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "c5d1882994123ef43424fb2d2ce90355a00191a8e5b4ee0d181f7a3774f5d3e3",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4519(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4519.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "a36794f7f04b1cd7fc920df9a0a0ebd1c1fd8946ae2e3b47a14557faff34e3f5",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4520(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4520.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "e0fcf5854622b2e91b6383ae76103099e7b99a019452423f0c63358c84c1f78e",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4521(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4521.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "81fb5f77b824e69659a74ff8b5eceeae48d9230ece14fb0ced643e555603fc12",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4522(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4522.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "ab5c0c38747df9ca250acc5f73d21e7e87b84628306684c10c4910ab134bd41b",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4523(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4523.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "a15f0cdc66dadae4b70434deb2f2a49e7327f55684800e17f039c40e6e6173fe",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4524(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4524.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "67e9aaa4687e012b24071edcb61a7425914b87910c37d58a7810b9063dea1cb7",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4525(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4525.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "3b05e49aae347a0acf8f4f4815ab51d85be6bcaaf70353c424d74200583009ae",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4526(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4526.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "a295a8272fba8e1392082dbbdbabe419480fd019e3e00e168f04caeeada4b586",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4527(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4527.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "81868374344e239dad4e445c88164c49e7dea1bb4117ecd70711035bcea17a88",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4528(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4528.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "e227b7e014419737bd5120317778dfa5e08d7582f6a6545b8506b143cc88d335",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4529(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4529.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "1e986de31d7971c8adbadb29bc111db1392b7d502a8ec2dd2c35ec72ce48a8e4",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4530(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4530.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "034623ea93b8bf820dc19088e4b6f9a168175a057b5b6b371712459da2150879",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4531(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4531.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "30b08744a35aebdbb8da1242f46ce53639a75943380cbc1aba40c3d7e718a0cb",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4532(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4532.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "ff791920fed8652680eb3d580ca006dcec61de645054bd99eedd10e182f4812e",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4533(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4533.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "1464cedc86343aaca97e243dfdc00259d89db6f2805b364f0a791ba25d5e1b9b",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4534(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4534.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "215a50463b2753f81c34beba7e1cf684830e17a6ae299ecbf0f87b9cf38da69e",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4535(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4535.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "4e99d1dc965b63b631ab1cfe33e29a7cdc05fb17cc289e73cbf91e460df71b41",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4536(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4536.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "86f30b49583664db10cb1c4893cfb73c8bd9f2e5c04699c4f251edd548669b17",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4537(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4537.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "bec5ce90562590d2649ee9fc69064f15512ca3fb8a27dd592618443362603e30",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4538(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4538.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "7adcfe162b98c9b9d007016e983fdf0c43ab8a95272d2a41433f622cbea904ad",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4539(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4539.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "75450779becc3da3cdbb44f1d8a193e26d368d93b258b5949bdf6378e4fbdbb5",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4540(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4540.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "84956b12ed3e8cd42b3e7cb1430dd6c72fa3307b2833b4e72b483eff53dae656",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4541(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4541.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "ba43ab9875f305eaaf8e25e3d528044fed19176b32bd8051eb5d403fb966829d",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4542(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4542.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "e431d1c86bae21f23bc943ba6f19f45749942a5b8bb9588a3ff3ae4dec7ba337",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4543(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4543.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "a392c85e3221fcd4abb479d7e6648d1e7341a1684b87c9b1f02540176e80ffd9",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4544(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4544.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "22f5decd754e117612735dceaa47560de60af106cbb9e64becd37cccde5e948e",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4545(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4545.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "b93dc8786c7dc6f68be93d2c2245a4e1799379607f5de1f9b93c0b40e1b65d57",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4546(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4546.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "fd80bd5ba4bc1ab74c7d74006c734a02ed74c8ca60ae3bf9b93ef8d757a84f7f",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4547(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4547.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "107873152da04a65c8d9d7b79efcd6433c1bc4ff2e17a81d1695ff4ce6312fa0",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4548(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4548.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "ea4bc728afcc1a962abdd4d965b10001df68a30adbcd50e249e3f67aec5843d9",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4549(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4549.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "1d964f03bf3cb556b5ddcef275e08ae083ac8b9b34154f9b9345ca4918302341",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4550(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4550.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "9e618de9d8dec03599d3263c9ae9e1f34c7599832f7e8c5929132e3d85053e07",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4551(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4551.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "6c9a58ff9a094587a471e6e8ac56c93c4722b77712493487acc1432df9f3e9b6",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4552(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4552.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "e50d81def315354bae91272f9ac66b62e15506bbe599e810eee98fe1245df28e",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4553(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4553.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "0d81dc7f14a3318e50dbf4b83636db8abbd56f1d055ffd54fadf6436ee568f80",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4554(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4554.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "0e8d87fe152154451d837b2b5ab443c0bad7b14548d261a53524f1510995a64a",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4555(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4555.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "e4501ba74ab29f477c572e5ddf8013e4423ceba8f4d1ccc899fad162231ef7e7",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4556(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4556.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "feefa08a136cb16b8b46129005ba92c6b7f526d63a1f97a46129ead59a53e165",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4557(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4557.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "fb036c5c25ffda7e33ed4737127844bc04a3fe31b1f638477064ef324b0c2c1e",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4558(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4558.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "8a1d7aabdf128fbe59fc77f2a79578f7a6dc186a3c0a18ff9d9e7d507eb2d856",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4559(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4559.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "5a7e0e20f56c1655099b61e04997538a451cbb8ea4999704ca88f7b1cf1ff0f0",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4560(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4560.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "f031beb3fc7944f0c1402533fa1490362a71a7ccb4b721a98c046830c2122f61",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4561(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4561.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "6737cf887fca2f254bcb044744b29f98ea00e0485fd5b89b9b63dd2a83d77a09",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4562(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4562.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "fbeb21cccf2945b0ed535bd62b74167c58254a0e47b9022bdec8f28c7b3e1843",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4563(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4563.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "9203ec9ec89b36c150600d68f0c6f3078d8b11b4f36c00af7887a5e7b8dcdebf",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4564(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4564.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "868356663825983863646105efa00de59e017a93357d90244b8e975a91e3d57a",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4565(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4565.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "336f5b3d86d53c5fb69bb46587a2084fdefe79daf217cb2e7d5a1d0c9e5ff92a",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4566(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4566.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "e2243940ef4c743dbacf8dead23fbd768df147117578108867f73d6cb112ceea",
+      "files": [
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4567(1).jpg"
+        },
+        {
+          "class": "Selamat",
+          "path": "Selamat\\IMG_4567.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "6ca1d668557d1158295fc9e82b673b04974fedbbf80753c01c43688d0a5052f9",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4106(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4106.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "e2d07d9a53d45dccf7ef07b7e90b79ae9a2a680d612edaf65c03e3185f9e7c58",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4107(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4107.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "34b8c83f4297fcc22b6ded16d296606bdf21fd5ccd2a18a96ae343ed4956e3c9",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4108(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4108.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "cd78e2c65111c18b6f479a1b10bbc918dea93ce78b1055ae753cf8a252e533a4",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4109(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4109.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "69b88262ba0066e4a29242332fc712c4683d043ad0b41b2c8c6d571165753d13",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4110(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4110.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "eaa433877c49bd60f93fb40567a50dcbbaadf590f9f22c7b11ca07655034f269",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4111(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4111.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "cfa6bd2f5149344761dac6bc0db7a1f10765ec05b41deae5b8eabb99578e17a3",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4112(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4112.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "5b1999af1e582bb2f298d0913fe6e3549b130e0db79d3028d8c4a3050b8d4b3f",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4113(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4113.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "4fe5f91821ed889a38ca2c4ca8f92ed4633e1ba5e8444401a5d940da931db088",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4114(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4114.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "feda1e654ec799522b23be748fa0b556c894a0bdddd016c148b68b0417a72b3f",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4115(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4115.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "13c336ac1b11b7a27da8655b9a17e0f0cd59c1bbccbbe14aa20cae32ad0cf4b3",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4116(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4116.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "900a8ee645c0cf217e9a5130a83881e441689db4a06cb5a34cc900e18d568d33",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4117(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4117.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "3d6dcc511295a1591faa994a50e63374fbfba6ed3f68b91af994414c2c1b8a83",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4118(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4118.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "480b6b8d47d93425f640126e469688162b58f7ef511a7c250a84fd21910ff42d",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4119(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4119.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "839d6b98109dffb511a65cb6dc8725c3c7e31ee35635f7c7d50b5df141fc7293",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4120(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4120.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "51f26f71f2ea046c0bf233406bec662ab1acf78b88b0a70acd1b6490f3cabf25",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4121(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4121.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "e3aedb4948c641be2d80d01d4dd88db3d88555b36e97acc20a5c1f83b1c88a2e",
+      "files": [
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4122(1).jpg"
+        },
+        {
+          "class": "Siang",
+          "path": "Siang\\IMG_4122.jpg"
+        }
+      ]
+    }
+  ],
+  "cross_class_duplicate_groups": [],
+  "note": "Hash SHA256 mendeteksi duplikat byte-identik, bukan near-duplicate."
+}

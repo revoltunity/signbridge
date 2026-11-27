@@ -1,0 +1,468 @@
+/* SignBridge — hangat, tenang, seperti buku catatan. */
+
+:root {
+  --paper: #F6F0E6;
+  --paper-2: #EDE4D3;
+  --surface: #FBF7F0;
+  --ink: #1F2430;
+  --ink-soft: #5A5248;
+  --line: #CDBFA8;
+  --accent: #B5452F;
+  --accent-strong: #8F3322;
+  --accent-ink: #FFFFFF;
+  --sage: #6B8F71;
+  --sage-ink: #3F6046;
+  --stage: #2A2622;
+  --focus: #1F2430;
+  --grain: .07;
+
+  --display: 'Fraunces', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --text: 'Atkinson Hyperlegible', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #1F1B17;
+    --paper-2: #2A2520;
+    --surface: #262119;
+    --ink: #F2EADD;
+    --ink-soft: #BFB3A2;
+    --line: #4F4538;
+    --accent: #E8836B;
+    --accent-strong: #F2A08B;
+    --accent-ink: #1F1B17;
+    --sage: #8DB594;
+    --sage-ink: #9CC3A3;
+    --stage: #14110E;
+    --focus: #F2EADD;
+    --grain: .05;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--text);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+/* Tekstur kertas: derau SVG feTurbulence, sangat tipis. */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: var(--grain);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .27 0 0 0 0 .18 0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+h1, h2, h3, p { margin: 0; }
+button, textarea { font: inherit; color: inherit; }
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+/* ---------- Kerangka ---------- */
+
+.app-shell {
+  position: relative;
+  z-index: 1;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 1rem clamp(1rem, 4vw, 2.5rem) 2.5rem;
+}
+
+.masthead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .25rem 1.5rem;
+  padding: .5rem 0 1.25rem;
+}
+
+.wordmark {
+  position: relative;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  letter-spacing: -.01em;
+  padding-bottom: .4rem;
+}
+
+.wordmark .scribble {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  width: 100%; height: .5rem;
+  color: var(--accent);
+}
+
+.tagline { color: var(--ink-soft); max-width: 34rem; }
+
+/* ---------- Pilih sisi (hanya layar sempit) ---------- */
+
+.side-switch {
+  display: flex;
+  gap: .5rem;
+  margin-bottom: 1.25rem;
+}
+
+.switch-btn {
+  flex: 1;
+  min-height: 48px;
+  padding: 0 1rem;
+  background: transparent;
+  border: 2px solid var(--ink);
+  border-radius: 14px 10px 16px 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color .15s, color .15s;
+}
+
+.switch-btn:nth-child(2) { border-radius: 10px 16px 11px 14px; }
+
+.switch-btn[aria-pressed='true'] {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* ---------- Dua sisi percakapan ---------- */
+
+.talk { display: grid; gap: 2rem; }
+
+.side { min-width: 0; }
+
+.side-head { margin-bottom: 1rem; }
+
+.side-head h2 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 1.2;
+}
+
+.side-head .scribble {
+  display: block;
+  width: 4.5rem; height: .5rem;
+  margin: .3rem 0 .4rem;
+  color: var(--accent);
+}
+
+.side-head p { color: var(--ink-soft); }
+
+h3 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.3;
+  margin-bottom: .25rem;
+}
+
+/* ---------- Tombol ---------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  min-height: 48px;
+  padding: 0 1.25rem;
+  border: 2px solid var(--ink);
+  border-radius: 14px 10px 16px 11px;
+  background: transparent;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color .15s, color .15s, border-color .15s;
+}
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
+.btn-primary:hover { background: var(--accent-strong); border-color: var(--accent-strong); }
+.btn-ghost:hover { background: var(--paper-2); }
+
+.btn.recording {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.btn:disabled {
+  opacity: .55;
+  cursor: not-allowed;
+}
+
+.btn:disabled:hover { background: transparent; }
+
+/* ---------- Sisi teman dengar ---------- */
+
+.sheet {
+  background: var(--surface);
+  border: 2px solid var(--ink);
+  border-radius: 18px 26px 14px 22px / 22px 14px 26px 18px;
+  padding: 1rem 1.25rem 1rem;
+}
+
+/* Garis buku catatan di belakang teks */
+.sheet textarea {
+  display: block;
+  width: 100%;
+  min-height: 8rem;
+  resize: vertical;
+  border: 0;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, transparent calc(2rem - 1.5px), var(--line) calc(2rem - 1.5px));
+  background-size: 100% 2rem;
+  background-attachment: local;
+  padding: 0;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.sheet textarea::placeholder { color: var(--ink-soft); opacity: 1; }
+.sheet textarea:focus-visible { outline-offset: 6px; }
+
+.sheet-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem 1rem;
+  margin-top: 1rem;
+  padding-top: .75rem;
+  border-top: 2px dashed var(--line);
+}
+
+.count { color: var(--ink-soft); font-size: .9375rem; }
+
+.actions { display: flex; flex-wrap: wrap; gap: .5rem; }
+
+.sign-note {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.25rem;
+  margin: 1.5rem 0 0 1rem;
+  padding: 1rem 1.25rem 1.25rem 1rem;
+  background: var(--paper-2);
+  border: 2px dashed var(--line);
+  border-radius: 30px 12px 32px 14px;
+  transform: rotate(-.6deg);
+}
+
+.sign-note p { max-width: 24rem; }
+
+.sign-hand {
+  flex: none;
+  width: clamp(7rem, 18vw, 10.5rem);
+  height: auto;
+  margin: -2.5rem 0 -.25rem -.5rem;
+  color: var(--ink);
+  transform: rotate(-6deg);
+}
+
+.hand-ground { stroke: var(--accent); }
+
+/* ---------- Sisi teman Tuli ---------- */
+
+.camera-stage {
+  position: relative;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--stage);
+  border-radius: 12px 28px 16px 24px;
+}
+
+.camera-stage video,
+.landmark-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: scaleX(-1);
+}
+
+.camera-stage video { object-fit: cover; }
+.landmark-overlay { pointer-events: none; }
+
+.camera-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  padding: .5rem 1rem 2.75rem;
+  color: #E9DFCF;
+  text-align: center;
+}
+
+.empty-hand { width: 3.75rem; height: auto; color: #E9DFCF; }
+.camera-empty .hand-ground { stroke: #E8836B; }
+
+.camera-chip {
+  position: absolute;
+  left: .75rem; bottom: .75rem;
+  z-index: 2;
+  max-width: calc(100% - 1.5rem);
+  padding: .25rem .75rem;
+  background: var(--surface);
+  color: var(--ink);
+  border-radius: 10px 14px 10px 12px;
+  font-size: .9375rem;
+  font-weight: 700;
+}
+
+.camera-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .75rem 1rem;
+  margin-top: 1rem;
+}
+
+.privacy { flex: 1 1 14rem; color: var(--ink-soft); }
+
+.camera-error {
+  margin-top: .75rem;
+  padding: .5rem .75rem;
+  border: 2px solid var(--accent);
+  border-radius: 10px 14px 10px 12px;
+  font-weight: 700;
+}
+
+.caption {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 2px dashed var(--line);
+}
+
+.caption-text {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  line-height: 1.2;
+  margin: .25rem 0 .75rem;
+}
+
+.caption-quiet { color: var(--ink-soft); }
+
+.caption-note {
+  max-width: 32rem;
+  margin-bottom: 1rem;
+  color: var(--ink-soft);
+}
+
+/* ---------- Kondisi & catatan ---------- */
+
+.conditions {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 2px solid var(--ink);
+}
+
+.conditions ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .25rem 1.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.conditions li { display: flex; align-items: center; gap: .5rem; min-height: 32px; }
+
+.dot {
+  flex: none;
+  width: .875rem; height: .875rem;
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+}
+
+.dot-ok { background: var(--sage-ink); border-color: var(--sage-ink); }
+.dot-wait { background: var(--ink); box-shadow: inset 0 0 0 2px var(--paper); }
+.dot-off { background: transparent; }
+
+.status-message { margin-top: .5rem; font-weight: 700; }
+
+.notes {
+  display: grid;
+  gap: .5rem;
+  max-width: 44rem;
+  margin-top: 1.75rem;
+  color: var(--ink-soft);
+}
+
+.notes-yes { color: var(--sage-ink); }
+.notes-no { color: var(--accent); }
+
+/* ---------- Layar lebar ---------- */
+
+@media (min-width: 900px) {
+  .side-switch { display: none; }
+
+  .talk {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    gap: 3rem;
+    align-items: start;
+  }
+
+  .side-deaf { margin-top: 2.25rem; }
+}
+
+/* ---------- Layar sempit: satu sisi sekali tampil ---------- */
+
+@media (max-width: 899px) {
+  .talk[data-side='text'] .side-deaf,
+  .talk[data-side='camera'] .side-hearing { display: none; }
+
+  .sign-note { margin-left: 0; flex-direction: column; align-items: flex-start; }
+  .sign-hand { margin: -2.75rem 0 0 .25rem; width: 7.5rem; }
+}
+
+@media (max-width: 420px) {
+  .wordmark, .side-head h2 { font-size: 1.5rem; }
+  .actions { width: 100%; }
+  .actions .btn { flex: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Pemilih ambang keyakinan */
+#sensitivity {
+  font: inherit;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  padding: .4rem .6rem;
+}
+#sensitivity:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }

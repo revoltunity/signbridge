@@ -1,0 +1,163 @@
+{
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "classes": {
+    "Apa": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Ayo": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Di": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Hati": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Jalan": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Kamu": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Kapan": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Kasih": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Kita": {
+      "unique_groups": 175,
+      "train_groups": 122,
+      "val_groups": 26,
+      "test_groups": 27
+    },
+    "Makan": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Mana": {
+      "unique_groups": 195,
+      "train_groups": 136,
+      "val_groups": 29,
+      "test_groups": 30
+    },
+    "Mari": {
+      "unique_groups": 174,
+      "train_groups": 122,
+      "val_groups": 26,
+      "test_groups": 26
+    },
+    "Mau": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Nama": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Pagi": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Pulang": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Rumah": {
+      "unique_groups": 100,
+      "train_groups": 70,
+      "val_groups": 15,
+      "test_groups": 15
+    },
+    "Saya": {
+      "unique_groups": 193,
+      "train_groups": 135,
+      "val_groups": 29,
+      "test_groups": 29
+    },
+    "Sedang": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Selamat": {
+      "unique_groups": 199,
+      "train_groups": 139,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Siang": {
+      "unique_groups": 183,
+      "train_groups": 128,
+      "val_groups": 27,
+      "test_groups": 28
+    },
+    "Siapa": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Sore": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Terima": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    },
+    "Tolong": {
+      "unique_groups": 200,
+      "train_groups": 140,
+      "val_groups": 30,
+      "test_groups": 30
+    }
+  },
+  "excluded_cross_class_duplicate_groups": 0,
+  "corrupt_files": [],
+  "grouping": "exact SHA256 only"
+}

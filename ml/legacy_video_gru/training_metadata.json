@@ -1,0 +1,10 @@
+{
+  "architecture": "2-layer bidirectional GRU",
+  "classes": 195,
+  "sequence_length": 128,
+  "features_per_frame": 258,
+  "source_videos_per_class": 1,
+  "best_training_loss": 0.4010387435937539,
+  "device": "cpu",
+  "warning": "Training loss is not validation accuracy. One source video per class; real-world generalization is unverified."
+}

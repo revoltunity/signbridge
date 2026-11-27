@@ -1,0 +1,14 @@
+node_modules
+dist
+.venv
+.env
+.env.local
+__pycache__
+*.pyc
+checkpoint_last.pt
+dataset/
+**/node_modules/
+**/__pycache__/
+*.npz
+*.pt
+dist/

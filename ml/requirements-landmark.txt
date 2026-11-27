@@ -1,0 +1,6 @@
+# Pengganti folder Lib (.venv). Pasang: pip install -r requirements-landmark.txt
+# Hanya paket inti; jax, scipy, matplotlib, dll. di Lib lama hanya ikut terpasang otomatis.
+mediapipe==0.10.21
+numpy==1.26.4
+opencv-python==4.11.0.86
+pillow
